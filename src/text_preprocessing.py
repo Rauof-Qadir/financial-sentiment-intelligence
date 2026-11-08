@@ -38,10 +38,10 @@ def clean_text(text):
 
     # Preserve letters and numbers from ALL languages
     text = regex.sub(
-        r"[^\p{L}\p{N}\s$%.'+\-]",
-        " ",
-        text
-    )
+    r"[^\p{L}\p{M}\p{N}\s$%.'+\-]",
+    " ",
+    text
+)
 
     # Remove extra spaces
     text = regex.sub(r"\s+", " ", text)
