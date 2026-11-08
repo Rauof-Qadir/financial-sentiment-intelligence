@@ -28,6 +28,13 @@ The goal is to transform unstructured financial text into structured information
 
 > Banking customer sentiment and financial news sentiment are separate analytical tasks. Neither should be interpreted as a direct prediction of financial market direction or investment performance.
 
+## Dashboard
+
+![1](docs/1.png)
+![2](docs/2.png)
+![3](docs/3.png)
+![4](docs/4.png)
+
 ## Key Features
 
 ### 1. Banking Customer Sentiment
@@ -257,7 +264,7 @@ Malo, P., Sinha, A., Korhonen, P., Wallenius, J., & Takala, P. (2014). *Good deb
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone <https://github.com/Rauof-Qadir/financial-sentiment-intelligence.git>
 cd financial-sentiment-intelligence
 ```
 
